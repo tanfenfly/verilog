@@ -1,0 +1,22 @@
+1. install the following softwares in cygwin
+        gperf-3.1.tar.gz
+        automake-1.15.tar.gz
+        bison-3.3.2.tar.gz
+        flex-2.6.4.tar.gz
+    #just download the tars from www.gnu.org , and use (./configure;make;make install)
+
+2.download iverilog and install
+        % git clone https://github.com/steveicarus/iverilog
+        % cd iverilog/
+        % sh autoconf.sh
+        % ./configure
+        % make
+        % make install
+
+3. install GTKwave
+        gtkwave-3.3.100-bin-win32.zip
+
+
+4. usage of iverilog
+        % iverilog hello.v
+        % ./a.out ;# you will get *.vcd 
